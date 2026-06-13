@@ -108,7 +108,6 @@ The application uses color-coded flashcards to represent different African regio
 * Eswatini
 * Lesotho
 * Namibia
-* South Africa
 
 ---
 
