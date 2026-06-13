@@ -2,7 +2,7 @@
 
 # Web Development Project 2 - African Flags Flashcards
 
-Submitted by: **Alhaji Amadu Jalloh**
+Submitted by: **Mohamed Alie Conteh**
 
 This web app: **An interactive flashcard app that helps users learn African countries by identifying their flags. Each card shows a flag on the front, and when clicked, it flips to show the country name, capital city, independence date, and region.**
 
