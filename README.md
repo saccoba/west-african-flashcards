@@ -1,228 +1,72 @@
-# 🌍 African Flags Flashcards
+🌍 African Flags Flashcards
+# Web Development Project 2 - African Flags Flashcards
 
-## Overview
+Submitted by: **Mohamed Alie Conteh**
 
-African Flags Flashcards is an interactive React application that helps users learn about African countries through their national flags. Users are presented with a flag and must identify the country before flipping the card to reveal the answer.
+This web app: **An interactive flashcard app that helps users learn African countries by identifying their flags. Each card shows a flag on the front, and when clicked, it flips to show the country name, capital city, independence date, and region.**
 
-Each flashcard includes:
+Time spent: 5** hours spent in total**
 
-* Country Name
-* Capital City
-* Independence Date
-* Regional Category (North, West, East, Central, or Southern Africa)
+## Required Features
 
-The application uses color-coded flashcards to represent different African regions, making learning both educational and visually engaging.
+The following **required** functionality is completed:
 
----
+* [x] **The app displays the title of the card set, a short description, and the total number of cards**
 
-## Features
+  * [x] Title of card set is displayed
+  * [x] A short description of the card set is displayed
+  * [x] A list of card pairs is created
+  * [x] The total number of cards in the set is displayed
+  * [x] Card set is represented as a list of card pairs
+* [x] **A single card at a time is displayed**
 
-### ✅ Flashcard Functionality
+  * [x] Only one half of the information pair is displayed at a time
+* [x] **Clicking on the card flips the card over, showing the corresponding component of the information pair**
 
-* Displays one flashcard at a time
-* Click a card to flip between question and answer
-* Displays country flags on the front of the card
-* Displays country information on the back of the card
+  * [x] Clicking on a card flips it over, showing the back with corresponding information
+  * [x] Clicking on a flipped card again flips it back, showing the front
+* [x] **Clicking on the next button displays a random new card**
 
-### ✅ Educational Content
+The following **optional** features are implemented:
 
-* Covers African countries by region
-* Includes capitals and independence dates
-* Helps users learn African geography and history
+* [x] Cards contain images in addition to or in place of text
 
-### ✅ Interactive Navigation
+  * [x] Cards display country flag images
+* [x] Cards have different visual styles such as color based on their category
 
-* Random card selection
-* Arrow navigation buttons
-* Smooth card transitions and animations
+  * [x] Cards are color-coded by African region: North, West, East, Central, and Southern Africa
 
-### ✅ Visual Design
+The following **additional** features are implemented:
 
-* Region-based color coding
-* Hover effects
-* Card shadows
-* Responsive layout
+* [x] Added card shadow styling
+* [x] Added hover transformation effects
+* [x] Added smooth visual styling for a more attractive flashcard experience
+* [x] Added arrow-style navigation buttons
 
----
+## Video Walkthrough
 
-## Regions Included
+Here's a walkthrough of implemented required features:
 
-### 🟦 North Africa
+GIF created with **"C:\Users\conte\OneDrive\Desktop\Codepathfiles\Web102\west-african-flashcards\src\assets\Walkthrought2.gif"**.
 
-* Algeria
-* Egypt
-* Libya
-* Morocco
-* Sudan
-* Tunisia
+## Notes
 
-### 🟩 West Africa
+One challenge I encountered was making sure the image file names matched the import statements exactly because React/Vite is case-sensitive. I also had to separate the logic in `App.jsx` from the display component in `card.jsx` so the flashcard could flip correctly and show a random card.
 
-* Benin
-* Burkina Faso
-* Cape Verde
-* Côte d'Ivoire
-* Gambia
-* Ghana
-* Guinea
-* Guinea-Bissau
-* Liberia
-* Mali
-* Mauritania
-* Niger
-* Nigeria
-* Senegal
-* Sierra Leone
-* Togo
+## License
 
-### 🟨 East Africa
-
-* Burundi
-* Comoros
-* Djibouti
-* Eritrea
-* Ethiopia
-* Kenya
-* Madagascar
-* Malawi
-* Mauritius
-* Mozambique
-* Rwanda
-* Seychelles
-* Somalia
-* Tanzania
-* Uganda
-* Zambia
-* Zimbabwe
-
-### 🟪 Central Africa
-
-* Angola
-* Cameroon
-* Chad
-* Gabon
-
-### 🟥 Southern Africa
-
-* Botswana
-* Eswatini
-* Lesotho
-* Namibia
-* South Africa
-
----
-
-## Technologies Used
-
-* React
-* Vite
-* JavaScript
-* CSS
-* HTML
-
----
-
-## Learning Objectives
-
-This project demonstrates:
-
-* React Functional Components
-* React Hooks (`useState`)
-* Props
-* Component Reusability
-* Conditional Rendering
-* Event Handling
-* State Management
-* CSS Styling and Animations
-
----
-
-## Project Structure
-
-```text
-src
-├── assets
-│   ├── Country Flag Images
-│
-├── App.jsx
-├── card.jsx
-├── App.css
-├── index.css
-└── main.jsx
 ```
+Copyright 2026 Mohamed Alie Conteh
 
----
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-## Installation
+    http://www.apache.org/licenses/LICENSE-2.0
 
-Clone the repository:
-
-```bash
-git clone https://github.com/saccoba/african-flags-flashcards.git
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 ```
-
-Navigate to the project:
-
-```bash
-cd african-flags-flashcards
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Run the development server:
-
-```bash
-npm run dev
-```
-
-Open:
-
-```text
-http://localhost:5173
-```
-
----
-
-## Future Improvements
-
-* Score tracking
-* Difficulty levels
-* Search countries by region
-* Country population information
-* Country maps
-* Audio pronunciation of country names
-* Quiz mode with correct/incorrect answers
-* Full coverage of all 54 African countries
-
----
-
-## Demo
-
-### Walkthrough GIF
-
-Add your GIF here:
-
-```md
-![Walkthrough](./src/assets/Walkthrough.gif)
-```
-
-### Video Demo
-
-Add your video link here:
-
-```md
-[Project Demo](INSERT_VIDEO_LINK_HERE)
-```
-
----
-
-## Author
-
-Mohamed Alie Conteh
-
-CodePath Web Development 102
-African Flags Flashcards Project
